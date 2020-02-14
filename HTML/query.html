@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            
+            //function to change heading to say goodbye
+            function hello(){
+                document.querySelector('h1').innerHTML = 'Goodbye'
+                //the queryselector alows the function to look at the parameter (in this case "h1")
+                //if we have more than one h1 tag it will select the first one
+                
+            }    
+
+        </script>
+        <body>
+            <h1>Welcome!</h1>
+            <button onclick="hello()">Click here!</button>
+        </body>
+    </head>
+</html>
