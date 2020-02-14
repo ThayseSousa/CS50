@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page</title>
+        <style>
+            @media print {
+                .screen-only {
+                    /* lembrando que neste caso o "." informa para selecionar uma classe */
+                    display: none;
+                }               
+            }
+        </style>
+    </head>
+    <body>
+        <p>This is a paragraph</p>
+        <p>This is another paragraph</p>
+        <p class="screen-only">This paragraph won't appear when you print this page</p>
+        <!-- o terceiro paragrafo só irá aparecer em telas de computadores. se tentarmos imprimir não irá aparecer -->
+    </body>
+</html>
